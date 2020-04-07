@@ -1,0 +1,30 @@
+Folders and Files in Vue Project Folder
+
+public - Contains things you want people to use when they come to your page:
+
+       index.html - you home page
+
+src - Contains code for your application
+
+        assets - images and other supporting items go
+                      IMAGES always go in the assets folder
+                      Vue has special treatment
+
+        components - Contains Vue components (.vue files)
+
+	      App.vue - main Vue app (like main() in Java)
+
+	      main.js - main JavaScript code
+
+       package.json  - List of all the things this application needs to run.
+
+
+
+
+
+
+ctrl-C to end the server before you start another
+
+ctrl-Z will stop the server without ending - This can lead to resource leak.
+
+Be sure when you do the npm run serve your port is 8080 or 8081…. don’t let it get much higher with reboot.

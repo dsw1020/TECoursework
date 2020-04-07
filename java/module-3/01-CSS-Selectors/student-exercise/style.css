@@ -1,0 +1,117 @@
+:root {
+  /* CSS Variables for certain attributes */
+    --top-row-height: 120px;
+    --gutter: 20px;
+    --blue: #00adee;
+    --light-blue: rgba(0, 173, 238, 0.4);
+    --green: #8cc36f;
+    --light-green: rgba(170, 239, 135, 0.8);  
+    --bg-color: rgba(192, 192, 192, 0.1);
+    --subheading: rgba(0, 0, 0, 0.6);
+  }
+  * html {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+  } 
+  h2 { color: var(--green);
+  }
+
+  p {
+    width: 380px;
+    font-size: 20px;
+  }
+  body {
+    background-color: var(--bg-color);
+  }
+  footer {
+    display: inline-block;
+    margin-left:20px ;
+  }
+  nav {
+    height: 100%;
+  }
+  .subheading {
+    visibility: hidden;
+  }
+  aside {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 1020px;
+      border-right-style: solid;
+      border-width: thin;
+      border-color: var(--light-blue);
+      padding-right: 0px;
+    }
+
+  ul {
+    position: fixed;
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 100%;
+    }
+  li {
+    margin: 25px;
+    text-decoration-color: var(--light-blue);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    
+    border-color: var(--light-blue);
+    line-height: 2em;
+  } 
+  a {
+    text-decoration: none;
+  }
+  main header img {
+    height:150px;
+    width: auto;
+  }
+  
+  aside img {
+    
+    margin-left: 25px;
+    height: 150px;
+  }
+  main {
+      position: absolute;
+      margin-left: 200px;
+    }
+    
+  main img {
+      width: 100%;
+      height: auto;
+      
+    }
+  #what-we-do {
+      display: inline-block;
+      width: 33%;  
+    }
+   
+    #our-work{
+      display: inline-block;
+      width: 33%;
+      border-left: solid;
+      border-right: solid;
+      border-right-width: thin;
+      border-left-width: thin;
+      border-color: var(--light-blue); 
+      
+    }
+    #contact-us{
+      display: inline-block;
+      width: 33%;
+      
+      
+    }
+    
+ 
+
+
+ 
+
+  
+  
+  

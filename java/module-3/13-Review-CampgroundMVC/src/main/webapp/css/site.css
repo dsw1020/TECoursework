@@ -1,0 +1,97 @@
+#logo {
+	width: 30%;
+	margin-top: 41px;
+}
+.mainContainer {
+	background:#CED9D4 ;
+	margin: 15px;
+}
+
+li {
+	list-style:none;
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+h1 {
+	text-align:center;
+	font-weight:lighter;
+	color:#7B8DA2;
+	font-weight: bold;
+}
+h2 {
+	font-weight:lighter;
+	text-align:center;
+	color:#7B8DA2;
+	font-weight: bold;
+}
+label {
+	font-weight: bold;
+	color: Green;
+}
+#parkInfo {
+	text-align: left;
+}
+#hideParkInfo {
+	display: none;
+}
+#showParkInfo {
+	display: block;
+}
+#campgroundInfo {
+	text-align: left;
+}
+#siteInfo {
+	text-align: left;
+}
+#hideCampgroundInfo {
+	display: none;
+}
+#showCampgroundInfo {
+	display: block;
+}
+#hideSiteTable {
+	display: none;
+}
+#showSiteTable{
+	display: block;
+}
+#headerTitle {
+	font-size: 2em;
+	text-align:left;
+	text-shadow: 2px 2px 4px #2D4F41;
+}
+.optionList {
+display:flex;
+flex-direction: row;
+align-items: center;	
+}
+.prompt {
+	top: 0;
+	color: Green;
+}
+.choices {
+	top:0;
+}
+#footer{
+    margin-bottom:auto;
+	width:100%;
+	text-align:center;
+}
+
+.formFooter{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+.error{
+	color:red;
+	
+}
+.form-group {
+	margin-top: 5px;
+}
